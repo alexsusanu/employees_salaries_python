@@ -1,5 +1,4 @@
-import sqlite3
-
+from definitions import sqlite3
 from func import check_input
 from menu import Menu
 
