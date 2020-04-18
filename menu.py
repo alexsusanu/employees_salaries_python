@@ -5,7 +5,7 @@ class Menu():
         print(40 * "-")
         print("Please select from the following options")
         print("1.View salaries \t2.View total payroll")
-        print("3.View average salary \t4.View average salary by age")
+        print("3.View average salary \t4.Add new employee")
         print("5.View % reduction \t6.Exit")
 
     def view_salaries():
@@ -16,10 +16,12 @@ class Menu():
 
     def average_salary():
         print("selected view average salary")
+        print("to add average salary by age")
 
-    def average_salary_age():
-        print("selected view salaries by age")
+    def add_employee():
+        print("add new employee")
 
     def perc_reduction():
         print("selected view % reduction")
+
 
