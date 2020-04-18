@@ -6,3 +6,4 @@ CONNECTION = sqlite3.connect('employees.db')
 CURSOR = CONNECTION.cursor()
 
 CREATE_EMPLOYEES = os.path.join(ROOT_DIR, 'sql_scripts/create_employees.sql')  
+INSERT_EMPLOYEES = os.path.join(ROOT_DIR, 'sql_scripts/insert_employees.sql')  
